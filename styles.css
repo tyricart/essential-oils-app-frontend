@@ -1,0 +1,63 @@
+body {
+padding: 20px;
+background: #f1f1f1
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@0,200;1,200&display=swap');
+
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: rgb(135, 212, 212);
+}
+
+.leftcolum {
+    float: left;
+    width: 75%;
+}
+
+.rightcolum {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+img {
+    opacity: 60%;
+    align-items: center;
+    
+}
+
+/* img:hover {
+    opacity: 40%;
+} */
+
+.card {
+    /* background-color: wheat; */
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#more {display: none;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolum, .rightcolum {
+        width: 100%;
+        padding: 0;
+    }
+}
