@@ -15,6 +15,7 @@ const Home = () => {
         <>
     <h1>Home Component</h1>
     <ul>{allOils}</ul>
+    <h1>test</h1>
     </>
     )
 }
