@@ -1,8 +1,10 @@
+import logo from "../assets/Pictures/tyrene.jpg"
+
 const About = () => {
   return (
     <div className="container-about">
       <h3>About the Master Practitioner, Tyrene Ricart</h3>
-      <img className="container-img" src='/assets/Pictures/tyrene.jpg' alt="" width={300} />
+      <img className="container-img" src={logo} alt="" width={300} />
         <p>Tyrene has been practicing alternative healing, energy work and natrual remedies since 2015. 
         She was her first client and learned the art of Reiki as she practice on herself. With consistency and 
         determination she became a Reiki Shihan in October 2020.

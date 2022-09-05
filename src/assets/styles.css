@@ -27,6 +27,16 @@ body {
 .container-about {
   max-width: 700px;
   margin:4rem auto;
+  padding: 4rem auto;
+}
+.container-about h3 {
+  margin: 2rem auto;
+}
+
+.container-img {
+  margin: 4px auto;
+  padding: 10px;
+  float: right;
 }
 
 /* HEADER NAV */
@@ -105,6 +115,23 @@ li a:hover {
 }
 
 /* BLOGS */
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
 .blogs {
   display: flex;
   flex-wrap: wrap;

@@ -23,8 +23,8 @@ function App() {
         <Route path="/directory" element={<Directory />} />
         <Route path="/single-oil" element={<SingleOil />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/admin-blog" element={<AdminBlog />} />
-        <Route path="/admin-oil" element={<AdminOil />} />
+        <Route path="/blog-crud-queen" element={<AdminBlog />} />
+        <Route path="/oil-crud-queen" element={<AdminOil />} />
         <Route path="*" element={<h1>Page not found</h1>} />
       </Routes>
       <Footer />
