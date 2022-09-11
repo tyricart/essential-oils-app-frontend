@@ -3,13 +3,13 @@ import { OilCard } from "../components/OilCard";
 
 const SingleOil = () => {
   const location = useLocation();
-  const { name, medicinalUse, emotionalUse, meansOfUse, chakra, safety, image } = location.state;
+  const { oilName, medicinalUse, emotionalUse, meansOfUse, chakra, safety, image } = location.state;
 
   return (
     <div className="container">
       <div className="single-oil">
         <img src={image} alt="" />
-        <h1>{name}</h1>
+        <h1>{oilName}</h1>
         <p><b>Medicinal Use: </b> {medicinalUse}</p>
         <p><b>Emotional Use: </b>{emotionalUse}</p>
         <p><b>Means of Use: </b>{meansOfUse}</p>
